@@ -1,0 +1,22 @@
+{
+    "auth": {
+        "identityProviders": {
+            "azureActiveDirectory": {
+                "registration": {
+                    "clientId": "b92273e5-9594-4804-ab7a-7590fcc07c31",
+                    "clientSecretSettingName": "StaticWebAppSecret"
+                }
+            }
+        }
+    },
+    "routes": [
+        {
+            "route": "/",
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/about",
+            "allowedRoles": ["authenticated"]
+        }
+    ]
+}
