@@ -9,6 +9,10 @@
     "401": {
       "statusCode": 302,
       "redirect": "/.auth/login/aad"
+    },
+    "logout": {
+      "statusCode": 302,
+      "redirect": "https://proud-bay-0b4d9651e.4.azurestaticapps.net"
     }
   },
     "auth": {
