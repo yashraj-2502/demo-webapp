@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Solutions Landing Page</title>
+
+    <style>
+        body {
+            background-image: url('image_bg.jpg'); /* Replace with your actual image path */
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            color: rgb(255, 255, 255); /* Text color */
+        } 
+        /* From Uiverse.io by nikk7007 */ 
+.btn {
+ --color: #00A97F;
+ --color2: rgb(10, 25, 30);
+ padding: 0.8em 1.75em;
+ background-color: transparent;
+ border-radius: 6px;
+ border: .3px solid var(--color);
+ transition: .1s;
+ margin-left: 14em;
+ position: relative;
+ overflow: hidden;
+ cursor: pointer;
+ z-index: 1;
+ font-weight: 300;
+ font-size: 17px;
+ font-family: 'Roboto', 'Segoe UI', sans-serif;
+ text-transform: uppercase;
+ color: var(--color);
+}
+
+.btn::after, .btn::before {
+ content: '';
+ display: block;
+ height: 100%;
+ width: 100%;
+ transform: skew(90deg) translate(-50%, -50%);
+ position: absolute;
+ inset: 50%;
+ left: 25%;
+ z-index: -1;
+ transition: .1s ease-out;
+ background-color: var(--color);
+}
+
+.btn::before {
+ top: -50%;
+ left: -25%;
+ transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::before {
+ transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::after {
+ transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btn:hover {
+ color: var(--color2);
+}
+
+.btn:active {
+ filter: brightness(.7);
+ transform: scale(.98);
+}
+
+        /* From Uiverse.io by SelfMadeSystem */ 
+
+
+        h1 {
+            font-size: 3em;
+            margin-top: 250px;
+            margin-left: 50px; /* Adjust for text position */
+        }
+    </style>
+</head>
+<body>
+    <h1>Reach New Heights with<br> AI-Powered Solutions</h1>
+    <!-- <button class="button stroke smoothscroll" onclick="window.location.href='https://proud-bay-0b4d9651e.4.azurestaticapps.net';">Log In</button> -->
+<!-- From Uiverse.io by SelfMadeSystem --> 
+<button class="btn"> Button
+</button>
+
+</body>
+</html>

@@ -67,20 +67,24 @@
                 border: none;
             }
             /* From Uiverse.io by mRcOol7 */
-            .Btn {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            width: 50px;
-            height: 50px;
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-            transition-duration: 0.4s;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-            background: linear-gradient(to right, #3498db, #e74c3c);
+            Btn {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 50px;
+                height: 50px;
+                border: none;
+                border-radius: 50%;
+                transition-duration: 0.4s;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+                background: linear-gradient(to right, #3498db, #e74c3c);
             }
  
             .sign {
@@ -153,8 +157,10 @@
 <li class="nav-item">
 <a class="nav-link" href="#" onclick="loadSite('https://infoasst-web-hpeud.azurewebsites.net/index.html#/')">Info Assistant</a>
 </li>
-<li>
-    <!-- From Uiverse.io by mRcOol7 -->
+</ul>
+</div>
+
+
 <button class="Btn" onclick="window.location.href='/.auth/logout'">
     <div class="sign">
       <svg viewBox="0 0 512 512">
@@ -166,10 +172,6 @@
  
     <div class="text">Logout</div>
   </button>
- 
-</li>
-</ul>
-</div>
  
         <!-- Main Content -->
 <div class="main-content" id="mainContent">
